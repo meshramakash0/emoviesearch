@@ -1,0 +1,24 @@
+{
+  "name": "emoviesearch",
+  "version": "1.0.1",
+  "engines": {
+    "node": "12.9.0"
+  },
+  "description": "This is a movie search app for testing purpose only",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.1.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
